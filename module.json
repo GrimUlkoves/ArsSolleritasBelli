@@ -1,0 +1,82 @@
+{
+  "id": "ars-solleritas-belli",
+  "title": "Ars Solleritas Belli",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "GrimUlkoves",
+      "discord": "grimulkoves",
+      "flags": {}
+    },
+    {
+      "name": "JJath",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ars-solleritas-belli",
+      "label": "Ars Solleritas Belli",
+      "path": "packs/ars-solleritas-belli",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+   "flags": {
+    "ars-solleritas-belli": {
+      "pf2e-homebrew": {
+ "weaponTraits": {
+        "impale": {
+          "label": "Impale",
+          "description": "Strikes made with weapons with the Imapel trait have a +1 bonus to attacks against targets with a circumstance bonus to their AC (such as from shields or cover) or against creatures with the Metal trait. At the DMs discretion, target wearing heavy armor can be considered viable for this trait"
+        },
+        "dastardly": {
+          "label": "Dastardly",
+          "description": "When a weapon with the Dastardly trait is used to Strike as part of a class or archetype action, make that attack with a +1 bonus to attack."
+        },
+        "quick": {
+          "label": "Quick",
+          "description": "You have a +1 circumstance bonus to Feint while you wield the weapon. This bonus increases by 1 if you've activated an action with the Flourish trait until the end of your turn. If you Feint as part of a Flourish action, you gain the increased bonus as part of that action."
+        },
+        "dual-twinned": {
+          "label": "Dual-Twinned",
+          "description": "Dual-Twinned weapons always have the Versatile weapon trait. Strikes made with the Dual-Twinned weapon gain the benefits of the Twin weapon trait if the last attack you made with the same weapon dealt a different damage type using the Versatile property, effectively 'alternating' which end of the weapon you're attacking with. When you're wielding a Dual-Twinned weapon with the required number of hands, you are counted as wielding a different weapon in each hand for the purposes of feat requirements."
+        },
+        "significant": {
+          "label": "Significant",
+          "description": "Significant weapons have cultural significance in certain cultures, providing a +1 circumstance bonus to Charisma-checks when the weapon is worn on your person in certain encounters when the item can be observed and its significance is understood by others. The significance or each weapon is individual to the culture it originates, as determined by your GM."
+        },
+        "thrust": {
+          "label": "Thrust",
+          "description": "When you Trip, Shove, or Feint the weapon gains a +1 bonus to attack rolls and deals 1 additional damage per weapon damage die until the end of your turn. You also gain this bonus if the attack is made as part of the same action, sucha s if you activate a feat that allows you to both Trip and Strike simultaneously." 
+          },
+           "Sunder-S": {
+          "label": "Sunder (Slashing)",
+          "description": "The sunder trait always lists a damage type alongside its entry. Whenever a creature misses a melee weapon attack against you, if that weapon deals the damage type listed by the Sunder property, you can use your reaction to deal damage to that creature's weapon equal to a roll of its damage dice (without modifiers), bypassing its hardness." 
+          }
+         },
+         "featTraits": {
+        "theurgic": {"label":"Theurgic",
+        "description":"This feat can only be selected and used if you have the Metatheurge archetype"
+        }
+      }
+         
+        }
+    }
+  },
+  "url": "https://github.com/GrimUlkoves/ArsSolleritasBelli",
+  "manifest": "https://raw.githubusercontent.com/GrimUlkoves/ArsSolleritasBelli/master/module.json",
+  "download": "https://github.com/GrimUlkoves/ArsSolleritasBelli/releases/download/Foundry/VTT_0.1.zip"
+}
